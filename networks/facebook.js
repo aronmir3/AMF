@@ -93,7 +93,7 @@ function do_fb_follow(){
 function do_fb_post_like(){
 
 	state = _STATE_WAIT_TO_CLOSE;
-	wait_time = generateRandom(0, 5);
+	wait_time = generateRandom(0, 6);
 
 	var div = document.querySelector('div[aria-label="Remove Like"]');
 	if(div) { return; }
@@ -106,7 +106,7 @@ function do_fb_post_like(){
 function do_fb_post_share(){
 
 	state = _STATE_WAIT_TO_CLOSE;
-	wait_time = generateRandom(0, 5);
+	wait_time = generateRandom(0, 8);
 
 	const btns = document.getElementsByTagName("span");
 	if (!btns) {
