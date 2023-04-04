@@ -1,7 +1,7 @@
 function do_yt_like() {
 
     state = _STATE_WAIT_TO_CLOSE;
-    wait_time = generateRandom(0, 5);
+    wait_time = generateRandom(0, 7);
 
     let btn = document.querySelector('button[aria-label^="like"]');
     if (btn) {
