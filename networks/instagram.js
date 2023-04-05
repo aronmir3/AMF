@@ -1,7 +1,7 @@
 function do_instagram_like(){
 
 	state = _STATE_WAIT_TO_CLOSE;
-	wait_time = generateRandom(0, 13);
+	wait_time = generateRandom(0, 15);
 	
 	var sec = document.querySelector('section._aamu');
 	if(!sec) { return; }
@@ -21,7 +21,7 @@ function do_instagram_like(){
 function do_instagram_follow(){
 
 	state = _STATE_WAIT_TO_CLOSE;
-	wait_time = generateRandom(0, 13);
+	wait_time = generateRandom(0, 15);
 
 	var btns = document.querySelectorAll("button");
 	if(!btns) { return false; }
